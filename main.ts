@@ -1,6 +1,6 @@
 let number = 0
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(randint(1, 6))
+    number = -1
 })
 input.onButtonPressed(Button.B, function () {
     number = 9
